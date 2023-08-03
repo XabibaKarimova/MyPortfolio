@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Buttons, Container, Content,  Facebook,  Hr, Nav, NavItem, Telegram, Youtube } from './style'
+import { Button, Buttons, Container, Content,  Facebook,  Hr, Nav, NavItem, Telegram, Warning, Youtube } from './style'
 import { navbar } from '../../utils/navbar'
 
 const Footer = () => {
@@ -22,7 +22,8 @@ const Footer = () => {
           </Buttons>
           <Hr></Hr>  
           <Content>
-          2023 <small>All rights reserved</small> 
+         <Warning>  The website is only for desktop users</Warning>   <br /> 
+          <div>2023 <small>All rights reserved</small> </div> 
           </Content> 
     </Container>
   )

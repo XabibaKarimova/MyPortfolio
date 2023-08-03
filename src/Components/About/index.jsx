@@ -18,7 +18,7 @@ const About = () => {
             A little bit about me:
             <br/> 
             Firstly, I'm very keen on programming, and at the moment,  
-            I'm learning  React.js. Apart from that, I know HTML, Css and a little bit JavaScript programming languages.
+            I'm learning  ReactJS. Apart from that, I know HTML, Css and a little bit JavaScript programming languages.
             What's more, I'm curious about cybersecurity, computer science, science, actually, everything in this universe.
             I'm learning them little by little, too. But I need to make more progress. That's why, 
             I need someone who can teach me them. 

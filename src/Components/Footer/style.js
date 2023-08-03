@@ -6,7 +6,7 @@ import {ReactComponent as yt} from '../../assets/youtube.svg'
 
 
 const Container=styled.div`
-height: 230px;
+height: 270px;
 background-color: var(--backgroundPrimary);
 color: #fff ;
 /* margin-top: 30px; */
@@ -72,7 +72,13 @@ height: 3px;
 background-color: var(--backgroundSecondary) ;
 `
 const Content=styled.div`
-margin-left: 45%;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+`
+const Warning=styled.div`
+color: red;
 `
 
-export {Container,NavItem,Buttons,Hr,Nav,Content,Button,Telegram,Facebook,Youtube}
+export {Container,NavItem,Buttons,Hr,Nav,Content,Button,Telegram,Facebook,Youtube,Warning}

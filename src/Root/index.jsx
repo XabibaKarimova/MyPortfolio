@@ -3,6 +3,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import { navbar } from '../utils/navbar'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
+import { H1 } from './style'
 
 
 const Root = () => {
@@ -19,10 +20,9 @@ const Root = () => {
             )
           })
         }
-        {/* <Route path='/home' element={<h1>Home</h1>}/>
-        <Route path='/properties' element={<h1>Properties</h1>}/> */}
+        
         <Route path='/' element={<Navigate to='/home'/>}/>
-        <Route path='*' element={<h1>404 NOT FOUND</h1>}/>
+        <Route path='*' element={<H1>404 NOT FOUND<p><small>Sorry! <br /> This page is yet to develop. I'm working on that</small> </p></H1>  }/>
       </Routes>
       <Footer/>
       </BrowserRouter>
